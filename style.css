@@ -1,10 +1,17 @@
 body {
     background-color: #305050;
     color: white;
+    text-align: center;
+    font-family: Verdana;
 }
 
 h2 {
-    color:orange;
+    color:rgb(240, 74, 8);
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .texto-inglês {
@@ -14,4 +21,14 @@ h2 {
 #nome-usuário {
     font-weight: bold;
     font-size: 20px;
+}
+
+
+@media screen and (max-width:420px)  {
+    img{
+        width:100%;
+    }
+    p {
+        font-size: 24px;
+    }
 }
