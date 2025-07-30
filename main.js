@@ -15,3 +15,13 @@ let linguagens = ["JavaScript", "Python","C++"];
 const item = document.querySelector("#lista");
 //item.textContent = linguagens[0] + ' - ' +  linguagens[1] + ' - ' +  linguagens[2];
 item.textContent = linguagens; 
+
+let aluno1 = {
+    nome: "Gabriel",
+    idade: 13,
+    anoLetivo: "2ªsérie",
+    materiasFavoristas: ["Geografia", "Programação", "Arte"]
+}
+
+const objeto = document.querySelector("#aluno");
+objeto.textContent = aluno1.nome;
